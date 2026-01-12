@@ -8,8 +8,8 @@ const categories = [
   "Wardrobe",
   "Dining Area",
   "TV Unit",
-  "False Ceiling",
-  "Bathroom",
+  "ShowCase",
+  "Staircase",
 ];
 
 function Gallery() {

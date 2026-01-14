@@ -1,3 +1,4 @@
+import Footer from "../components/common/Footer";
 import Navbar from "../components/common/Navbar";
 
 function MainLayout({ children }) {
@@ -5,7 +6,7 @@ function MainLayout({ children }) {
     <div className="min-h-screen w-full">
       <Navbar/>
       {children}
-      {/* Footer comes here */}
+      <Footer/>
     </div>
   );
 }
